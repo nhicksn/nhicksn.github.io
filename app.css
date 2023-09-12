@@ -1,0 +1,9 @@
+.crop1 {
+    width: 533px; /* width of container */
+    height: 400px; /* height of container */
+    object-fit: cover;
+    object-position:80% 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
