@@ -4,8 +4,12 @@
 
 <head>
     <link rel="stylesheet" href="app.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
 
-    <title>Noah Hicks Website Portfolio</title>
+    <title>Noah Hicks</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intitial-scale=1.0">
@@ -17,13 +21,41 @@
 <body>
     <!--this is a comment-->
     <h1>Project Experience</h1>
-    <p>Information about projects</p>
+    <h2>Account Database - May 2023</h2>
+    <!-- find a way to get rid of the line break between these two sections -->
+    <p>
+        I undertook the design and implementation of an Account Database Management System as a personal project, using my C++ programming skills.
+        <br>
+        I hoped to refine my design skills, and get more experience finishing a project from the very beginning to end. 
+    </p>
+    <h2>Modified SQL Database - March 2023</h2>
+    <!-- find a way to get rid of the line break between these two sections -->
+    <p>
+        As part of a class on Data Structures and Algorithms, I was tasked with constructing a custom SQL database, implemented in C++, to meet a set of performance and functionality
+        specifications.
+        <br>
+        Important aspects of this project include effecient searching, printing, deleting, and joining of tables. Tables are implemented using the standard library hash tables, which enables
+        sorting and filtering using binary tree indices to optimize search algorithms, making deletion or output of specific rows much faster.
+        <br>
+        A unique aspect of this custom SQL implementation is the ability to join two tables together. This functionality gives the opportunity to find the intersection of two datasets,
+        and prints the specified rows and values to the terminal. There is a demo of these functionalities below.
+    </p>
+    <div>
+        <img class="crop2" src="/images/SQL database demo.png" alt="This is a demo of the SQL Database">
+    </div>
     <hr>
     <br>
-    <h2>Leadership Experience</h2>
+    <h1>Leadership Experience</h1>
+    <h2>Digital Signal Processor Project Team</h2>
     <p>information about leadership</p>
     <hr>
     <br>
+
+    
+    <br>
+    <div>
+        <img class="crop1" src="/images/seniorpic.jpeg" alt="This is a picture of me"> 
+    </div>
 
     <a href="https://www.linkedin.com/in/noahhicks3" target=_blank title="This takes you to my LinkedIn profile">
         <button style="background-color: #222222; border-radius:5px; color:white">LinkedIn</button>
@@ -32,16 +64,10 @@
     <a href="https://www.github.com/nhicksn" target=_blank title="This takes you to my GitHub profile">
         <button style="background-color: #222222; border-radius:5px; color:white">GitHub</button>
     </a>
-    <br>
-    <hr>
-    <br>
-    <div>
-        <img class="crop1" src="/images/seniorpic.jpeg" alt="This is a picture of me"> 
-    </div>
 
-    <!--  <iframe src="https://www.bing.com" width="750" height="250">  -->
+     <!-- <iframe src="https://www.bing.com" width="750" height="250">  -->
 
-    <form action="action_page.php" method="POST">
+    <!-- <form action="action_page.php" method="POST">
 
         <label for="fname">first name:</label>
         <input type="text" id="fname" name="fname" placeholder="Bob">
@@ -49,7 +75,7 @@
         <label for="lname">last name:</label>
         <input type="text" id="lname" name="lname" placeholder="Ross">
 
-    </form>
+    </form> -->
 </body>
 
 </html>
