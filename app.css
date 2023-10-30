@@ -1,4 +1,4 @@
-.crop1 {
+.seniorpic {
     width: 533px; /* width of container */
     height: 400px; /* height of container */
     object-fit: cover;
@@ -8,11 +8,22 @@
     display: block
 }
 
-.crop2 {
+.SillyQL {
     width: 700px;
     object-fit: cover;
     object-position: 80% 0;
     margin-left: auto;
     margin-right: auto;
     display: block
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+
+.text {
+    font: 30px 'Roboto', sans-serif;
 }
